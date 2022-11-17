@@ -20,16 +20,23 @@ body {
                 margin-top:10px;
                 background:white;
                 width:40%;
-                margin-top:50px
+                margin-top:50px;
             }
                 .uno1 {
                     display:flex;
-                    justify-content: space-between ;
+                    justify-content: space-between;
+                    align-items:center;
                     padding:5px
                 }
-                .uno2 img {
-                    object-fit: cover;
-	                object-position: top;
+                .uno2 {
+                    display:flex;
+                }
+                    .uno2 img {
+                        width: 100%;
+                        object-fit:scale-down
+                    }
+                .uno3 {
+                    padding:5px
                 }
             .dos {
                 margin-top:10px;
@@ -37,7 +44,5 @@ body {
                 width:40%;
                 margin-top:50px
             }
-    p .ordinal {
-        text-decoration:red
-    }
+
 
