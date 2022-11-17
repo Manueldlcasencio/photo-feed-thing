@@ -1,0 +1,31 @@
+body {
+    background: lightgray;
+    margin:0px
+}
+.wrapper {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    }
+    .h1 {
+        background:white;
+        text-align:center;
+        overflow:visible
+    }
+    .fotos {
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        margin-top:10px
+        }
+            .uno {
+                margin-top:10px;
+                background:white;
+                width:40%
+            }
+            .dos {
+                margin-top:10px;
+                background:white;
+                width:40%
+            }
+
