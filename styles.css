@@ -14,17 +14,30 @@ body {
     .fotos {
         display:flex;
         flex-direction:column;
-        align-content:center;
-        margin-top:10px
+        align-items:center;        
         }
             .uno {
                 margin-top:10px;
                 background:white;
-                width:40%
+                width:40%;
+                margin-top:50px
             }
+                .uno1 {
+                    display:flex;
+                    justify-content: space-between ;
+                    padding:5px
+                }
+                .uno2 img {
+                    object-fit: cover;
+	                object-position: top;
+                }
             .dos {
                 margin-top:10px;
                 background:white;
-                width:40%
+                width:40%;
+                margin-top:50px
             }
+    p .ordinal {
+        text-decoration:red
+    }
 
